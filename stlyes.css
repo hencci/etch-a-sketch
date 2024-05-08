@@ -8,6 +8,8 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: url('etch-a-skrtch.jpeg');
+    background-attachment: fixed;
 }
 
 .options {
@@ -29,6 +31,7 @@ body{
     background-color: black;
     border: 1px solid black;
     width: 500px;
+    opacity: 0.9;
 }
 
 .square {
