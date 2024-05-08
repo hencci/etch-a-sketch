@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.options {
+    margin: 20px 0;
+    display: flex;
+    gap: 40px;
+}
+.options button {
+    border: 2px solid brown;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: burlywood ;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: black;
+    border: 1px solid black;
+    width: 500px;
+}
+
+.square {
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
