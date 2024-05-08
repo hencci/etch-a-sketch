@@ -1,0 +1,1 @@
+This is an etch-a-sketch project which starts with a 16x16 square drawing board. The board can be inreased up to 100x100 on user input.
